@@ -6,8 +6,10 @@ readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
     "fastapi>=0.136.3",
+    "myapplication>=0.1.0",
     "nacos-sdk-python>=3.2.0",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.14.1",
     "pyyaml>=6.0.3",
+    "redis>=8.0.0",
 ]
