@@ -6,8 +6,8 @@ class NacosSettings(BaseSettings):
     nacos_server: str = "localhost:8848"
     namespace_id: str = "ai-risk-controll-risk-dev"
     nacos_group: str = "DEV"
-    nacos_user: str = "nacos"
-    nacos_pwd: str = "nacos"
+    nacos_user: str = "nacos_base"
+    nacos_pwd: str = "nacos_base"
     grpc_timeout: int = 5000
 
     # 当前服务注册信息

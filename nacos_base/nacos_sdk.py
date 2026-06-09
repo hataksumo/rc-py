@@ -66,3 +66,4 @@ async def get_nacos_config(data_id: str, group: str = "DEV") -> str:
     )
     content = await nacos_config_client.get_config(get_config_request)
     return content
+

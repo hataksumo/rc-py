@@ -1,6 +1,7 @@
 __all__ = [
     "RedisQueryRequest",
-    "RedisQueryResponse"
+    "RedisQueryResponse",
+    "MysqlTestQueryRequest"
 ]
 
-from entity.test.test_request import RedisQueryRequest, RedisQueryResponse
+from entity.test.test_request import RedisQueryRequest, RedisQueryResponse, MysqlTestQueryRequest
